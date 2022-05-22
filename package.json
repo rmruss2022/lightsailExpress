@@ -1,0 +1,23 @@
+{
+  "name": "expressmay",
+  "version": "1.0.0",
+  "description": "express api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmruss2022/lightsailExpress.git"
+  },
+  "author": "Matthew Russell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmruss2022/lightsailExpress/issues"
+  },
+  "homepage": "https://github.com/rmruss2022/lightsailExpress#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {}
+}
