@@ -13,8 +13,11 @@ db.once('open', () => console.log('Connected to mongodb'))
 
 app.use(express.json())
 
-const subscriberRouter = require('./routes/subscriber')
-app.use('/subscriber', subscriberRouter)
+app.use('/user', require('./routes/user'))
+
+app.use('/subscriber', require('./routes/subscriber'))
+app.use('/iot', require('./routes/iot'))
+
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
